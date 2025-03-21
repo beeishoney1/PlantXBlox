@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlantXShop</title>
+    <link rel="icon" type="image/x-icon" href="/Img/shopname.jpg">
+
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <div class="main">
+        <marquee behavior="" class="styled-marquee" scrollamount="20">Welcome To PlantXShop</marquee>
+        <div class="title">
+            <div class="title-container">
+                <img src="./../Img/shopname.jpg" alt="PlantXShop Logo" class="title-img">
+                <h3 class="title-text">PlantXShop</h3>
+            </div>
+        </div>
+  
+        <nav class="navbar">
+            <div class="menu-container">
+                <div class="icon" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></div>
+                <div class="nav-items" id="nav-items">
+                    <a href="./../help/help.html" class="nav-item">Help <i class="fa-solid fa-question"></i></a>
+                    <a href="https://t.me/UzuiTengen0" class="nav-item">Admins <i class="fa-solid fa-user-tie"></i></a>
+                    <a href="./../index.html" class="nav-item fix-stock"> Stocks-List <i class="fa-solid fa-list"></i></a>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="mainslide">
+            <div class="slide">
+                <div class="content">
+                    <img src="./../Img/main1,jpg.jpg" alt="Main 1" class="zoomable-img"/><br/>
+                    <span class="fix-stock">12Perms + All Gamepass <br/><span class="click-img">Click Image</span><br/>
+                    <div class="price">250,000 MMK</div>
+                    <div class="price" style="color: green;">Available</div>
+                    <a href="https://t.me/UzuiTengen0" class="btn btn1">buy</a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="content">
+                    <img src="./../Img/xenomain1.jpg" alt="Main 1" class="zoomable-img"/><br/>
+                    <span class="fix-stock">18Prems + All Gamepass<br/><span class="click-img">Click Image</span>
+                    <div class="price">200,000 MMK</div>
+                    <div class="price" style="color: green;">Available</div>
+                    <a href="https://t.me/UzuiTengen0" class="btn btn1">buy</a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="content">
+                    <img src="./../Img/xenomain2.jpg" alt="Main 1" class="zoomable-img"/><br/>
+                    <span class="fix-stock"> 7Prems + All Gamepass<br/><span class="click-img">Click Image</span>
+                    <div class="price">400,000 MMK</div>
+                    <div class="price" style="color: green;">Available</div>
+                    <a href="https://t.me/UzuiTengen0" class="btn btn1">buy</a>
+                </div>
+            </div>
+        </div>   
+        
+        <!-- Modal for Enlarged Image -->
+        <div class="modal" id="imageModal">
+            <span class="modal-close">×</span>
+            <img class="modal-content" id="enlargedImg">
+        </div>
+
+        <br/>
+        <div class="telegram"><a href="https://t.me/plantXblox">Join Our Telegram Channel - 1</a></div>
+        <div class="telegram"><a href="https://t.me/Torando_shop">Join Our Telegram Channel - 2</a></div>
+        <div class="footer">Design by BeeSama</div>
+    </div>
+
+    <script src="./actio.js"></script>
+    <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'923ac272ba60dd21',t:'MTc0MjUzMTkwNC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script>
+</body>
+</html>

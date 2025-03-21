@@ -1,1 +1,2 @@
-# PlantXBlox
+# PlantXShop
+plantXShop

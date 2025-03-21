@@ -1,0 +1,66 @@
+body {
+    background-color: #1a1a1a; /* Dark background */
+    color: #fff; /* Light text color */
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #333; /* Dark background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+.title h1 {
+    color: #ffcc00; /* Bright yellow text */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+}
+
+.price-list p {
+    color: #f1dcac; /* Light yellow text */
+    font-size: 1.2em;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ffcc00; /* Bright yellow border */
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.price-list p:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 4px 8px rgba(255, 204, 0, 0.8); /* Glowing effect on hover */
+}
+
+.btn, .back-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #333; /* Dark text */
+    background-color: #ffcc00; /* Bright yellow background */
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
+}
+
+.btn:hover, .back-btn:hover {
+    background-color: #333; /* Dark background on hover */
+    color: #ffcc00; /* Bright yellow text on hover */
+    box-shadow: 0 4px 8px rgba(255, 204, 0, 0.8); /* Glowing effect on hover */
+}
+
+.back-btn {
+    margin-top: 10px;
+}
