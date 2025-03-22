@@ -4,48 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Help</title>
-    <style>
-      
-      .container{
-        display: grid;
-        gap: 10px;
-    
-        
-    margin-top: 20px;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    border-radius: 8px;
-    text-align: center;
-    font-weight: 600;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: all 2s;
-}
-    pre{
-        text-align: center;
-    }
-
-    a{
-        color: red;
-        
-    }
-    </style>
+    <link rel="stylesheet" href="help.css">
+    <!-- Include Google Fonts for Orbitron -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Particle background -->
+    <div id="particles-js"></div>
+    <!-- Scanline effect -->
+    <div class="scanline"></div>
+
     <div class="container">
-        <p>If U want to Buy Acc Please Contact to admin Or Click The button.<br><br/>
-
-            အကောင့်ဝယ်ယူချင်ပါက Adminsဒါမမဟုတ် buy ခလုတ်လေးကိုနှိပ်ပြီးဆက်သွယ်ပေးပါ။<br/>
-            Accများကိုစျေးတန်တန်နဲ့ရောင်းပေးမှာမလို့ယုံကြည်စိတ်ချစွာဝယ်ယူလို့ရပါ။<br>
-            Telegram Channelလေးတွေလည်းJoinပေးကျပါအုန်းဗျ။
-            
-            သိချင်တာရှိပါက Adminsကိုဆက်သွားပေးပါ။
+        <h1 class="header">Help & Support</h1>
+        <p>
+            If you want to buy an account, please contact the admin or click the button below.<br><br/>
+            အကောင့်ဝယ်ယူချင်ပါက Admins ဒါမမဟုတ် buy ခလုတ်လေးကိုနှိပ်ပြီးဆက်သွယ်ပေးပါ။<br/>
+            Accများကိုစျေးတန်တန်နဲ့ရောင်းပေးမှာမလို့ယုံကြည်စိတ်ချစွာဝယ်ယူလို့ရပါ။<br/>
+            Telegram Channelလေးတွေလည်းJoinပေးကျပါအုန်းဗျ။<br/>
+            သိချင်တာရှိပါက Adminsကိုဆက်သွယ်ပေးပါ။
         </p>
-        <a href="./../index.html ">Go Back</a>
-
+        <a href="https://t.me/UzuiTengen0" class="telegram-btn">Join Telegram</a>
+        <a href="./../index.html">Go Back</a>
     </div>
 
-
+    <!-- Include particles.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="help.js"></script>
 </body>
-    
 </html>
